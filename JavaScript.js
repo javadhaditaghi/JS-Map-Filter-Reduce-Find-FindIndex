@@ -30,7 +30,7 @@ console.log(filteredNum)
 //Reduce - Accumulate a value by doing something to each item in an array.
 
 const sum = numbers.reduce((accumulator, item) => {
-    return accumulator + item
+    return accumulator + item //Calculating the sum of the numbers
 })
 
 console.log(sum)
@@ -40,8 +40,17 @@ console.log(sum)
 
 //Find - find the first item that matches from an array.
 
+const first = numbers.find(number => {
+    return number * number == number  //identity property of multiplication
+})
 
-
+console.log(first)
 
 
 //FindIndex - find the index of the first item that matches.
+
+const firstIndex = numbers.findIndex(number => {
+    return number >= 30 && number <= 60
+})
+
+console.log(firstIndex)
