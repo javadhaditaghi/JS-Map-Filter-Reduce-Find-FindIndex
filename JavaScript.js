@@ -50,7 +50,7 @@ console.log(first)
 //FindIndex - find the index of the first item that matches.
 
 const firstIndex = numbers.findIndex(number => {
-    return number >= 30 && number <= 60
+    return number >= 30 && number <= 60 //Finding the first index of the numbers between 30 and 60 
 })
 
 console.log(firstIndex)
