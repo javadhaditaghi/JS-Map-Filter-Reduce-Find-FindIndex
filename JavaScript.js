@@ -29,6 +29,11 @@ console.log(filteredNum)
 
 //Reduce - Accumulate a value by doing something to each item in an array.
 
+const sum = numbers.reduce((accumulator, item) => {
+    return accumulator + item
+})
+
+console.log(sum)
 
 
 
